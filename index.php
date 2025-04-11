@@ -139,7 +139,7 @@ $palestrantes = [
                         </div>
                     </div>
                 </div>
-                <!-- palestrante 2 Ricardo Amorim-->
+                <!-- palestrante 2 Rafael Couto-->
                 <div class="col-md-4">
                     <div class="card shadow service-card">
                         <div class="card-body text-center p-4">
@@ -147,7 +147,7 @@ $palestrantes = [
                                 <i class="fas fa-users fa-2x"></i>
                             </div>
                             <img src="ricardo amorim 2.jfif" alt="">
-                            <h3 class="card-title h5 mb-3">Ricardo Amorim</h3>
+                            <h3 class="card-title h5 mb-3">Rafael Couto</h3>
                             <p class="card-text">Otimizamos o potencial da sua equipe com programas de desenvolvimento,
                                 treinamento e cultura organizacional.</p>
                             <a href="#" class="btn btn-outline-success mt-3">Quem Sou</a>
@@ -326,11 +326,52 @@ echo "Data: " . $evento["data"] . "<br>";
 echo "Local: " . $evento["local"] . "<br>";
 echo "Descrição: " . $evento["descrição"];
 ?>
-                
+                <div class="social-icons">
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <h5 class="text-white mb-3">Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Home</a></li>
+                    <li class="mb-2"><a href="#servicos" class="text-muted text-decoration-none">Serviços</a></li>
+                    <li class="mb-2"><a href="#sobre" class="text-muted text-decoration-none">Sobre</a></li>
+                    <li class="mb-2"><a href="#equipe" class="text-muted text-decoration-none">Equipe</a></li>
+                    <li><a href="#contato" class="text-muted text-decoration-none">Contato</a></li>
+                </ul>
+            </div>
+
+            Análise do Código do Site
+            Nosso site profissional utiliza os seguintes elementos e recursos do Bootstrap:
+
+            <div class="col-md-3">
+                <h5 class="text-white mb-3">Serviços</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Estratégia de Negócios</a>
+                    </li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Gestão de Pessoas</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Transformação Digital</a>
+                    </li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Consultoria Financeira</a>
+                    </li>
+                    <li><a href="#" class="text-muted text-decoration-none">Marketing Estratégico</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5 class="text-white mb-3">Contato</h5>
+                <ul class="list-unstyled text-muted">
+                    <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Av. Paulista, 1000 - São Paulo</li>
+                    <li class="mb-2"><i class="fas fa-phone me-2"></i> (11) 5555-5555</li>
+                    <li class="mb-2"><i class="fas fa-envelope me-2"></i> contato@consulttech.com.br</li>
+                </ul>
+            </div>
         </div>
         <hr class="my-4 bg-secondary">
         <div class="text-center text-muted">
-            <small>&copy; 2025 Desenvolvido por, Régis.A, Paulo Vinícius R.G. Iago Paixão.S Todos os direitos reservados.</small>
+            <small>&copy; 2025 ConsultTech. Todos os direitos reservados.</small>
         </div>
     </div>
     </footer>
